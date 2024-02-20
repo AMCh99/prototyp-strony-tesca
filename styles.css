@@ -133,4 +133,18 @@ main {
         width: 100%;
         margin-bottom: 10px;
     }
+    iframe{
+        width: 90%;
+    }
+    #reload {
+        width: 100px;
+        height: 100px;
+    }
+    .wrapper {
+        top: 20%;
+        left: 85%;
+    }
+    .kontakt .form form{
+        width: 90%;
+    }
 }
