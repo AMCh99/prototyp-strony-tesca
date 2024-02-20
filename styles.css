@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('kominek.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.div_title {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.o_mnie {
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.text p{
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+
+.kontakt {
+    text-align: center;
+}
+
+.kontakt div {
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 50%;
+    height: auto;
+}
+
+.kontakt .form form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.kontakt .form form input, textarea{
+    min-height: 30px;
+    padding: 5px;
+    size: 50px;
+    font-size: large;
+}
+
+.kontakt .form form #send_message{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(233, 126, 126);
+}
+
+.kontakt .form form #send_message:hover{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(204, 89, 233);
+}
+.wrapper {
+    top: 15%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.circle {
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 50%;
+    /* background-color: greenyellow; */
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#reload {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
