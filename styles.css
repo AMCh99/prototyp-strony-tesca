@@ -121,6 +121,11 @@ main {
     border-radius: 500px;
 }
 
+footer {
+    background-color:rgb(233, 126, 126);
+    text-align: center;
+}
+
 
 
 @media screen and (max-width: 768px) {
